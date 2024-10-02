@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BBFV Automation</title>
+  <style>
+    .el-loading-spinner {
+      position: relative;
+      background-image: url('/logo.png');
+      background-repeat: no-repeat;
+      background-position: center 0;
+      background-size: 100px;
+      height: 190px;
+      top: 40% !important;
+    }
+
+    .el-loading-spinner .circular {
+      position: absolute;
+      bottom: 0px;
+      left: calc(50% - 21px);
+    }
+
+    .el-loading-spinner .el-loading-text {
+      @apply text-xl font-bold text-black;
+      font-size: larger !important;
+      font-weight: bold !important;
+      color: white !important;
+      position: absolute;
+      bottom: 60px;
+      right: 0;
+      left: 0;
+    }
+
+    .el-upload-list__item-info {
+      margin-left: 0 !important;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app"></div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
